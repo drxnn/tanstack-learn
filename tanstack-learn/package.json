@@ -1,17 +1,23 @@
 {
-  "name": "tanstack-learning",
+  "name": "tanstack-learn",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server.js"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.55.2",
+    "@tanstack/react-query-devtools": "^5.55.2",
+    "axios": "^1.7.7",
+    "express": "^4.19.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -22,6 +28,7 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "json-server": "^0.17.3",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
