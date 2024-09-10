@@ -1,5 +1,11 @@
+import Todo from "./components/Todo";
+
 function App() {
-  return <>asjfkasnf pasnfip</>;
+  return (
+    <>
+      <Todo />
+    </>
+  );
 }
 
 export default App;
